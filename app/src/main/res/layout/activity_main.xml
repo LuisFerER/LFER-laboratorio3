@@ -34,10 +34,10 @@
             android:layout_height="wrap_content"
             android:text="@string/profile_name"
             android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textSize="17sp"
             android:layout_below="@id/profile_image"
             android:layout_centerInParent="true"
-            android:paddingBottom="15dp"/>
+            android:layout_marginBottom="15dp"/>
     </RelativeLayout>
 
     <ScrollView
@@ -94,14 +94,13 @@
                         android:id="@+id/phone"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="65dp"
-                        android:layout_marginTop="7dp"
-                        android:layout_marginEnd="69dp"
+                        android:layout_toEndOf="@id/phone_icon"
+                        android:paddingStart="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:text="@string/number_phone"
-                        android:textSize="18sp" />
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -133,14 +132,13 @@
                         android:id="@+id/email"
                         android:layout_width="282dp"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="64dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="46dp"
+                        android:layout_toEndOf="@id/email_icon"
+                        android:paddingStart="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:text="@string/email"
-                        android:textSize="18sp" />
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -171,14 +169,13 @@
                         android:id="@+id/facebook_profile"
                         android:layout_width="257dp"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="65dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="71dp"
+                        android:layout_toEndOf="@id/facebook_icon"
+                        android:paddingStart="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:text="@string/facebook_profile"
-                        android:textSize="18sp" />
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -210,15 +207,13 @@
                         android:id="@+id/twitter_profile"
                         android:layout_width="259dp"
                         android:layout_height="38dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginStart="64dp"
-                        android:layout_marginTop="1dp"
-                        android:layout_marginEnd="69dp"
+                        android:layout_toEndOf="@id/twitter_icon"
+                        android:paddingStart="20dp"
                         android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
                         android:text="@string/twitter_profile"
-                        android:textSize="18sp" />
+                        android:textSize="17sp"
+                        tools:ignore="RtlSymmetry" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
