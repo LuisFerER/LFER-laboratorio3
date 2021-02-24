@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">laboratorio3</string>
+    <string name="profile_name"><b>Luis Fernando Escobedo Romero</b></string>
+    <string name="description"><b>Vivo en Jalpa Zacatecas\nEstudiante de la Universidad Autónoma de Zacatecas Campus Jalpa\nIngeniería en Tecnologías Computacionales</b></string>
+    <string name="number_phone"><b>+52 463 952 6302</b></string>
+    <string name="email"><b>fernando.escobedo@uaz.edu.mx</b></string>
+    <string name="facebook_profile"><b>Luis F. Escobedo</b></string>
+    <string name="twitter_profile"><b>\@LuisF_Escobedo</b></string>
+</resources>
